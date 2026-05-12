@@ -1,0 +1,17 @@
+// Paste these rules in Firebase Console → Firestore → Rules
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Only authenticated users can access school assets
+    match /schools/{schoolId}/assets/{assetId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // School metadata — read only for authenticated users
+    match /schools/{schoolId} {
+      allow read: if request.auth != null;
+      allow write: if false; // Only admin can write school info
+    }
+  }
+}

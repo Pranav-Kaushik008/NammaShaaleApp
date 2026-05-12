@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma-Shaale</string>
+    <string name="school_name">GPS Higher Primary School</string>
+    <string name="fileprovider_authority">com.nammashaale.app.fileprovider</string>
+</resources>
