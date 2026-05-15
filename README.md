@@ -67,7 +67,29 @@ Login → Dashboard → Asset List → Asset Detail
 - Search + filter assets
 - Offline-first (Room DB) + real-time Firebase sync
 
+## Technologies Used
+- Kotlin
+- Jetpack Compose
+- Firebase Authentication
+- Firebase Firestore
+- Room Database
+- MVVM Architecture
+- Material Design 3
+- Gradle
+- Android Studio
+- Coroutines & Flow
 
+---
+
+## Setup Instructions
+
+### Prerequisites
+Make sure you have:
+- Android Studio installed
+- Android SDK installed
+- Internet connection for Gradle sync
+
+---
 
 ## Common Fixes
 | Problem | Fix |
@@ -98,4 +120,6 @@ Sync Now
 
 Connect an Android device or start an emulator
 Click Run in Android Studio
+
+
 
