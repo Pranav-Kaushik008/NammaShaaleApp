@@ -42,7 +42,7 @@ First run takes 3–5 min (downloads dependencies). Do NOT click anything during
 - In Firebase Console enable: **Auth (Email/Password)** + **Firestore** + **Storage**
 
 ### 5. Run on Pixel 7 API 34
-- **Tools → Device Manager → Create Device → Pixel 7 → API 34 → Finish** [This is optional ie can select according to our wish]
+- **Tools → Device Manager → Create Device → Pixel 5/7 → API 34 → Finish** [This is optional ie can select the pixel according to our wish but is recommended for Android 15+]
 - Press **▶ Run**
 - Login screen appears → Register → Start adding assets!
 
