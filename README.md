@@ -24,7 +24,7 @@ First run takes 3–5 min (downloads dependencies). Do NOT click anything during
 - In Firebase Console enable: **Auth (Email/Password)** + **Firestore** + **Storage**
 
 ### 5. Run on Pixel 7 API 34
-- **Tools → Device Manager → Create Device → Pixel 7 → API 34 → Finish**
+- **Tools → Device Manager → Create Device → Pixel 7 → API 34 → Finish** [This is optional ie can select according to our wish]
 - Press **▶ Run**
 - Login screen appears → Register → Start adding assets!
 
@@ -56,3 +56,26 @@ Login → Dashboard → Asset List → Asset Detail
 | `google-services.json` error | Replace with your real Firebase file |
 | SDK not found | File → Project Structure → SDK Location |
 | Camera error on emulator | Use physical device or enable camera in AVD |
+
+
+Some notes for Firebase
+
+Configure Firebase
+Go to Firebase Console
+Create a Firebase project
+
+Add Android app with package name:
+com.nammashaale.app
+
+Download google-services.json
+Place the file inside:
+app/google-services.json
+
+Sync Gradle
+
+Click:
+Sync Now
+
+Connect an Android device or start an emulator
+Click Run in Android Studio
+
