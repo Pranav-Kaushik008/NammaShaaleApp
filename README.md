@@ -121,5 +121,14 @@ Sync Now
 Connect an Android device or start an emulator
 Click Run in Android Studio
 
+Project Structure:
 
+app/
+ ├── ui/
+ ├── database/
+ ├── repository/
+ ├── viewmodel/
+ ├── firebase/
+ ├── screens/
+ └── utils/
 
