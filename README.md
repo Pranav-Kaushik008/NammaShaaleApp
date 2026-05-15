@@ -3,6 +3,24 @@
 
 ---
 
+##  Project Overview
+Namma-Shaale Inventory App is an Android-based digital asset management system designed for schools and educational institutions. The application helps schools efficiently track, manage, and audit assets such as laptops, projectors, laboratory equipment, desks, chairs, and other inventory items.
+
+The app replaces traditional paper-based inventory management with a centralized digital solution that improves accuracy, reduces manual effort, and simplifies auditing processes.
+
+---
+
+##  Problem Statement
+Many schools still rely on manual registers or spreadsheets to maintain inventory records. This often leads to:
+- Misplaced or inaccurate records
+- Difficulty tracking damaged or unavailable assets
+- Delayed auditing and reporting
+- Time-consuming inventory management
+
+The Namma-Shaale Inventory App solves these issues by providing a secure and organized digital inventory system with real-time updates and easy asset tracking.
+
+---
+
 ## ✅ Open in Android Studio — Exact Steps
 
 ### 1. Extract ZIP
@@ -48,6 +66,8 @@ Login → Dashboard → Asset List → Asset Detail
 - Shareable Summary Report
 - Search + filter assets
 - Offline-first (Room DB) + real-time Firebase sync
+
+
 
 ## Common Fixes
 | Problem | Fix |
