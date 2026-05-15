@@ -132,4 +132,4 @@ app/
  ├── screens/
  └── utils/
 
-![alt text]("Screenshot 1 .png")
+![alt text](Screenshot1.png)
